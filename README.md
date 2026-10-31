@@ -1,6 +1,6 @@
 # Four Eyes Collective – Eyewear & Sunglasses E-Commerce System
 
-Four Eyes Collective is a Java-based e-commerce web application.
+A Java-based eyewear and sunglasses e-commerce web application developed using JSP, Java Servlets, JPA, and MVC architecture.
 
 The system provides an online shopping platform where customers can browse eyewear products, manage shopping carts, make purchases, and submit product ratings and comments. It also includes separate dashboards and management functionalities for staff and managers.
 
