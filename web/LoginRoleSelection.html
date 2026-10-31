@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <link rel="stylesheet" href="login.css" />
+        <title>Four Eyes Collective - Select Role</title>
+    </head>
+    <body>
+        <main class="main-content">
+            <div class="header">
+                <a href="#" class="logo-space">
+                    <img src="Images/LOGO3.png" alt="Four Eyes Collective Logo" style="height: 120px;">
+                </a>
+            </div>
+
+            <!-- Let user to select role to login (customer & management personnel) -->
+            <div class="form-container">
+                <div class="form-box">
+                    <h1>Select Your Role</h1>
+                    <div class="role-options">
+                        <div class="role-option" onclick="window.location.href = 'CustomerLogin.jsp'">
+                            <i class="fas fa-user"></i>
+                            <div class="role-info">
+                                <h3>Customer</h3>
+                                <p>Login as a customer to shop</p>
+                            </div>
+                        </div>
+
+                        <div class="role-option" onclick="window.location.href = 'ManagementRoleSelection.jsp'">
+                            <i class="fas fa-user-tie"></i>
+                            <div class="role-info">
+                                <h3>Management</h3>
+                                <p>Login as management personnel to access administrative functions</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Back to Dashboard link -->
+                    <div class="back-link-container">
+                        <a href="home.jsp" class="back-link">
+                            <i class="fas fa-arrow-left"></i> Back to Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

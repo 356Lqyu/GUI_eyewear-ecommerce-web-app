@@ -1,0 +1,48 @@
+/* Welcome Message Section */
+.welcome-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    height: 100px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    animation: fadeIn 1s ease-out
+}
+
+.welcome-section h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.welcome-section p {
+    margin: 10px 0 0;
+    opacity: 0.9;
+}
+
+.header-title .company-name {
+    margin-bottom: 5px;
+}
+.header-title .dashboard-title {
+    font-weight: lighter;
+    font-size: 1.4rem;
+}
+
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+    color: var(--dark-color);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
